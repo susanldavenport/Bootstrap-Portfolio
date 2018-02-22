@@ -1,0 +1,141 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    position: relative;
+}
+/* NAVBAR */
+/* <!--trying to change navbar color-->  */
+.name{
+    background-color: #4aaaa5;
+    color: #ebebeb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#myNavbar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding: 20px 0;
+    animation: comeleft 2s ease-in-out;
+}
+
+@keyframes comeleft{
+    0%{
+        opacity: 0;
+        transform: rotate(-265deg) translate(500px)
+    };
+
+    100%{
+        opacity: 1;
+        transform: rotate(0deg) translate(0);
+    };
+}
+/* HEADERS */
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-image: url(../images/grey-jean.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+form{
+    padding: 20px 0;
+}
+
+#page-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 1px solid #faf7f7;
+    padding: 25px 15px;
+}
+
+.thumbnail{
+    margin-top: 15px;
+}
+
+#bio{
+    margin: 15px 0;
+}
+
+#sidebar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 6px;
+    margin-bottom: 6em;
+}
+
+#panel-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 5px;
+}
+
+.panel{
+    padding: 0 20px;
+}
+
+#app{
+  margin-bottom: 4em; 
+  color: #777777;
+  line-height: 30px;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: #777777;
+    border-top: #4aaaa5 3px solid;
+    font-size: 16px;
+    color: #ebebeb;
+    padding: 20px 0;
+}
+
+/* PORTFOLIO PHOTOS */
+
+#portfolio-box{
+    position: relative;
+    width: 650px;
+    height: 940px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    border: #ebebeb solid 1px;
+}
+
+#portfolio-cont{
+    padding-top: 15px;
+    margin-bottom: 5em;
+}
+
+#portfolio-title{
+    padding: 20px 15px;
+}
+
+#portfolio-img{
+    position: relative;
+}
+
+.project-title{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    z-index: 2;
+    padding-top: 10px;
+    width: 265px;
+    height: 45px;
+}
