@@ -20,18 +20,18 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     padding: 20px 0;
-    animation: comeleft 2s ease-in-out;
+    animation: comeleft 1s ease-in-out;
 }
 
 @keyframes comeleft{
     0%{
         opacity: 0;
-        transform: rotate(-265deg) translate(500px)
+        transform: translate(500px)
     };
 
     100%{
         opacity: 1;
-        transform: rotate(0deg) translate(0);
+        transform: translate(0);
     };
 }
 /* HEADERS */
@@ -89,7 +89,7 @@ form{
 #app{
   margin-bottom: 4em; 
   color: #777777;
-  line-height: 30px;
+  line-height: 30px;z
 }
 
 /* FOOTER */
@@ -109,7 +109,7 @@ form{
     width: 650px;
     height: 940px;
     background-color: #ffffff;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     border: #ebebeb solid 1px;
 }
 
